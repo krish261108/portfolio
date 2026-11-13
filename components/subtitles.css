@@ -1,0 +1,33 @@
+/* Narrator subtitles: low and centred, where films put them. Above the page
+   and its letterbox bars, below modals (350), the toast (340) and the cursor. */
+.subs {
+  position: fixed;
+  left: 50%;
+  bottom: max(5.5svh, 28px);
+  z-index: 330;
+  width: min(92vw, 880px);
+  translate: -50% 0;
+  text-align: center;
+  pointer-events: none;
+}
+
+.subs__line {
+  display: inline-block;
+  padding: 0.38em 0.85em 0.42em;
+  border-radius: 6px;
+  background: rgba(4, 5, 8, 0.46);
+  font-family: var(--sans);
+  font-size: clamp(0.98rem, 1.45vw, 1.24rem);
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: 0.005em;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85), 0 0 18px rgba(0, 0, 0, 0.6);
+  text-wrap: balance;
+}
+
+@media (max-width: 760px) {
+  .subs {
+    bottom: max(4svh, 18px);
+  }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Keeps the portfolio dev server running on http://localhost:3000.
+  macOS starts it at login and restarts it if it ever stops.
+  Installed copy lives in ~/Library/LaunchAgents/com.krish.portfolio.plist
+  Logs: ~/Library/Logs/krish-portfolio.log
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.krish.portfolio</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/node</string>
+    <string>/Users/krish/portfolio web/node_modules/vite/bin/vite.js</string>
+    <string>--port</string>
+    <string>3000</string>
+    <string>--strictPort</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/krish/portfolio web</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>10</integer>
+
+  <key>StandardOutPath</key>
+  <string>/Users/krish/Library/Logs/krish-portfolio.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/krish/Library/Logs/krish-portfolio.log</string>
+</dict>
+</plist>

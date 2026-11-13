@@ -1,0 +1,98 @@
+{
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "playbackRate": 1,
+  "lines": {
+    "opening": [
+      {
+        "file": "/vo/opening-1.m4a",
+        "text": "Every story begins in the dark.",
+        "duration": 3
+      },
+      {
+        "file": "/vo/opening-2.m4a",
+        "text": "This one is about a developer who wanted the web to feel like cinema.",
+        "duration": 5.375
+      }
+    ],
+    "name": [
+      {
+        "file": "/vo/name-1.m4a",
+        "text": "Krish Singh.",
+        "duration": 1.75
+      }
+    ],
+    "act-1": [
+      {
+        "file": "/vo/act-1-1.m4a",
+        "text": "It started with a question.",
+        "duration": 2.475
+      },
+      {
+        "file": "/vo/act-1-2.m4a",
+        "text": "What if a website could feel alive?",
+        "duration": 3.05
+      }
+    ],
+    "act-2": [
+      {
+        "file": "/vo/act-2-1.m4a",
+        "text": "The details nobody notices.",
+        "duration": 3.075
+      },
+      {
+        "file": "/vo/act-2-2.m4a",
+        "text": "But everybody feels.",
+        "duration": 2.25
+      }
+    ],
+    "act-3": [
+      {
+        "file": "/vo/act-3-1.m4a",
+        "text": "Ideas are cheap.",
+        "duration": 2.125
+      },
+      {
+        "file": "/vo/act-3-2.m4a",
+        "text": "So here is what he actually built.",
+        "duration": 3
+      }
+    ],
+    "act-4": [
+      {
+        "file": "/vo/act-4-1.m4a",
+        "text": "Skills are claimed everywhere.",
+        "duration": 2.55
+      },
+      {
+        "file": "/vo/act-4-2.m4a",
+        "text": "His were earned, one credential at a time.",
+        "duration": 3.65
+      }
+    ],
+    "act-5": [
+      {
+        "file": "/vo/act-5-1.m4a",
+        "text": "And the best scene?",
+        "duration": 1.95
+      },
+      {
+        "file": "/vo/act-5-2.m4a",
+        "text": "It hasn’t been written yet.",
+        "duration": 2.4
+      }
+    ],
+    "finale": [
+      {
+        "file": "/vo/finale-1.m4a",
+        "text": "Every film needs a next chapter.",
+        "duration": 2.825
+      },
+      {
+        "file": "/vo/finale-2.m4a",
+        "text": "His could start with your message.",
+        "duration": 2.75
+      }
+    ]
+  }
+}
